@@ -1,0 +1,17 @@
+/Users/Thomas/dev/5250Crawl/Crawl/Crawl/bin/Debug/netstandard2.0/Crawl.deps.json
+/Users/Thomas/dev/5250Crawl/Crawl/Crawl/bin/Debug/netstandard2.0/Crawl.dll
+/Users/Thomas/dev/5250Crawl/Crawl/Crawl/bin/Debug/netstandard2.0/Crawl.pdb
+/Users/Thomas/dev/5250Crawl/Crawl/Crawl/obj/Debug/netstandard2.0/Crawl.csprojAssemblyReference.cache
+/Users/Thomas/dev/5250Crawl/Crawl/Crawl/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/Thomas/dev/5250Crawl/Crawl/Crawl/obj/Debug/netstandard2.0/Views/AboutPage.xaml.g.cs
+/Users/Thomas/dev/5250Crawl/Crawl/Crawl/obj/Debug/netstandard2.0/Views/MainPage.xaml.g.cs
+/Users/Thomas/dev/5250Crawl/Crawl/Crawl/obj/Debug/netstandard2.0/Views/MenuPage.xaml.g.cs
+/Users/Thomas/dev/5250Crawl/Crawl/Crawl/obj/Debug/netstandard2.0/Crawl.csproj.CoreCompileInputs.cache
+/Users/Thomas/dev/5250Crawl/Crawl/Crawl/obj/Debug/netstandard2.0/Crawl.AssemblyInfoInputs.cache
+/Users/Thomas/dev/5250Crawl/Crawl/Crawl/obj/Debug/netstandard2.0/Crawl.AssemblyInfo.cs
+/Users/Thomas/dev/5250Crawl/Crawl/Crawl/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/Thomas/dev/5250Crawl/Crawl/Crawl/obj/Debug/netstandard2.0/Crawl.dll
+/Users/Thomas/dev/5250Crawl/Crawl/Crawl/obj/Debug/netstandard2.0/Crawl.pdb
+/Users/Thomas/dev/5250Crawl/Crawl/Crawl/obj/Debug/netstandard2.0/Views/ItemNewPage.xaml.g.cs
+/Users/Thomas/dev/5250Crawl/Crawl/Crawl/obj/Debug/netstandard2.0/Views/Items/ItemDetailPage.xaml.g.cs
+/Users/Thomas/dev/5250Crawl/Crawl/Crawl/obj/Debug/netstandard2.0/Views/Items/ItemsPage.xaml.g.cs

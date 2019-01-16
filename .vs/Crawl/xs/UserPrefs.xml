@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{F0DB485E-D7AB-4B47-8F1D-6B055E809603}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="alligator-rocket Status">
+    <Files>
+      <File FileName="alligator-rocket Status" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Crawl.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
