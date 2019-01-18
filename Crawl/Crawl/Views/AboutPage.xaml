@@ -34,19 +34,19 @@
 
                     <Label 
                 FontSize="Large"
-                Text="Class Dungeon"
+                Text="Fisher Harris"
                 VerticalOptions="Center" 
                 HorizontalOptions="CenterAndExpand" />
 
                     <Label 
                 FontSize="Medium"
-                Text="Mobile Development"
+                Text="Week 2 Homework"
                 VerticalOptions="Center" 
                 HorizontalOptions="CenterAndExpand" />
 
                     <Label 
                 FontSize="Small"
-                Text="Mike Koenig"
+                Text="CPSC3500"
                 VerticalOptions="Center" 
                 HorizontalOptions="CenterAndExpand" />
 

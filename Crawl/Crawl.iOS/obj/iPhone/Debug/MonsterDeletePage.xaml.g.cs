@@ -13,7 +13,8 @@
 namespace Crawl.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/Thomas/dev/5250Crawl/Crawl/Crawl/Views/Monsters/MonsterDeletePage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\fishe\\Documents\\GitHub\\CPSC3500HW\\Crawl\\Crawl\\Views\\Monsters\\MonsterDele" +
+        "tePage.xaml")]
     public partial class MonsterDeletePage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

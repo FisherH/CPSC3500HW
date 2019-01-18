@@ -13,7 +13,7 @@
 namespace Crawl.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/Thomas/dev/5250Crawl/Crawl/Crawl/Views/AboutPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\fishe\\Documents\\GitHub\\CPSC3500HW\\Crawl\\Crawl\\Views\\AboutPage.xaml")]
     public partial class AboutPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

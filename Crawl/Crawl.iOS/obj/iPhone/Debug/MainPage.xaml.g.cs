@@ -13,7 +13,7 @@
 namespace Crawl.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/Thomas/dev/5250Crawl/Crawl/Crawl/Views/MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\fishe\\Documents\\GitHub\\CPSC3500HW\\Crawl\\Crawl\\Views\\MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.TabbedPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

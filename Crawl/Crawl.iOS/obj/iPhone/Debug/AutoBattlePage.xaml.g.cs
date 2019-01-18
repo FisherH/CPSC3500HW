@@ -13,7 +13,8 @@
 namespace Crawl.Views.Battle {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/Thomas/dev/5250Crawl/Crawl/Crawl/Views/Battle/AutoBattlePage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\fishe\\Documents\\GitHub\\CPSC3500HW\\Crawl\\Crawl\\Views\\Battle\\AutoBattlePag" +
+        "e.xaml")]
     public partial class AutoBattlePage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Crawl.Views.MenuPage">
+    <ContentPage.Content>
+        <StackLayout>
+			<Label Text="Week 2 Homework"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+			<Image 
+                Source="mushroom.png" 
+                VerticalOptions="Center" 
+                HeightRequest="50"
+                HorizontalOptions="Fill"/>
+
+
+			<Button Text="History"
+					HorizontalOptions="Center"
+					VerticalOptions="Center"
+					Clicked="HistoryPageButtonClick" />
+
+			<Button Text="Characters"
+					HorizontalOptions="Center"
+					VerticalOptions="Center"
+					Clicked="CharactersPageButtonClick" />
+
+			<Button Text="Items"
+					HorizontalOptions="Center"
+					VerticalOptions="Center"
+					Clicked="ItemsPageButtonClick" />
+
+		</StackLayout>
+    </ContentPage.Content>
+</ContentPage>
