@@ -9,11 +9,10 @@
                 HorizontalOptions="CenterAndExpand" />
 
 			<Image 
-                Source="mushroom.png" 
+                Source="d20.png" 
                 VerticalOptions="Center" 
                 HeightRequest="50"
                 HorizontalOptions="Fill"/>
-
 
 			<Button Text="History"
 					HorizontalOptions="Center"
