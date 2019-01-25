@@ -2169,24 +2169,27 @@
     ]
   },
   "packageFolders": {
-    "/Users/Thomas/.nuget/packages/": {}
+    "C:\\Users\\fishe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Thomas/dev/alligator-rocket/Crawl/Crawl.Android/Crawl.Android.csproj",
+      "projectUniqueName": "C:\\Users\\fishe\\Documents\\GitHub\\CPSC3500HW\\Crawl\\Crawl.Android\\Crawl.Android.csproj",
       "projectName": "Crawl.Android",
-      "projectPath": "/Users/Thomas/dev/alligator-rocket/Crawl/Crawl.Android/Crawl.Android.csproj",
-      "packagesPath": "/Users/Thomas/.nuget/packages/",
-      "outputPath": "/Users/Thomas/dev/alligator-rocket/Crawl/Crawl.Android/obj",
+      "projectPath": "C:\\Users\\fishe\\Documents\\GitHub\\CPSC3500HW\\Crawl\\Crawl.Android\\Crawl.Android.csproj",
+      "packagesPath": "C:\\Users\\fishe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fishe\\Documents\\GitHub\\CPSC3500HW\\Crawl\\Crawl.Android\\obj\\",
       "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/Thomas/.config/NuGet/NuGet.Config"
+        "C:\\Users\\fishe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid90"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
