@@ -41,15 +41,28 @@ namespace Crawl.Services
             // Implement
 
             // Load Items.
-            _itemDataset.Add(new Item("Gold Sword", "Sword made of Gold, really expensive looking",
-                "http://www.clker.com/cliparts/e/L/A/m/I/c/sword-md.png", 0, 10, 10, ItemLocationEnum.PrimaryHand, AttributeEnum.Defense));
 
-            _itemDataset.Add(new Item("Strong Shield", "Enough to hide behind",
-                "http://www.clipartbest.com/cliparts/4T9/LaR/4T9LaReTE.png", 0, 10, 0, ItemLocationEnum.OffHand, AttributeEnum.Attack));
 
-            _itemDataset.Add(new Item("Bunny Hat", "Pink hat with fluffy ears",
-                "http://www.clipartbest.com/cliparts/yik/e9k/yike9kMyT.png", 0, 10, -1, ItemLocationEnum.Head, AttributeEnum.Speed));
+            String Katana_IMG = "https://b.kisscc0.com/20180706/ge/kisscc0-japanese-sword-katana-samurai-wakisashi-5b3f429ac0aca9.0869634215308724747892.png";
+            String Helmet_IMG = "http://png.clipart-library.com/images/3/halo-master-chief-helmet-clip-art/master-chief-halo-combat-evolved-halo-4-helmet-ha-it-s-snowing-5adf4f57a43326.2259542015245842796726.jpg";
+            String Glasses_IMG = "https://b.kisscc0.com/20180814/ljq/kisscc0-sunglasses-eyewear-drawing-eyeglasses-2-5b73257b53bac3.423023741534272891343.png";
+            String Sheild_IMG = "https://i5.walmartimages.com/asr/4c0b5887-464b-44f3-9a9a-5c578c71f70d_1.61fa9108898ea9a76ba573181ed9883b.jpeg";
+            String Dagger_IMG = "https://www.darksword-armory.com/wp-content/uploads/2014/09/ranger-medieval-lord-of-the-rings-dagger-1800.jpg";
 
+            _itemDataset.Add(new Item("Katana", "An ancient blade.",
+                Katana_IMG, 0, 10, 10, ItemLocationEnum.PrimaryHand, AttributeEnum.Defense));
+
+            _itemDataset.Add(new Item("Hylian Shield", "The sheild of a hero...",
+                Sheild_IMG, 0, 10, 0, ItemLocationEnum.OffHand, AttributeEnum.Defense));
+
+            _itemDataset.Add(new Item("Helmet", "The mask of a warrior.",
+                Helmet_IMG, 0, 20, 0, ItemLocationEnum.Head, AttributeEnum.Defense));
+
+            _itemDataset.Add(new Item("Glasses", "Not stylish, but very effective.",
+                Glasses_IMG, 0, 10, 0, ItemLocationEnum.Head, AttributeEnum.Speed));
+
+            _itemDataset.Add(new Item("Dagger", "A nimble blade.",
+                Dagger_IMG, 2, 5, 10, ItemLocationEnum.Head, AttributeEnum.Speed));
             // Implement Characters
 
             // Implement Monsters
