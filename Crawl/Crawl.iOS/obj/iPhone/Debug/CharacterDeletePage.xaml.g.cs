@@ -13,13 +13,17 @@
 namespace Crawl.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\fishe\\Documents\\GitHub\\CPSC3500HW\\Crawl\\Crawl\\Views\\Characters\\Character" +
-        "DeletePage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\fishe\\Documents\\GitHub\\MobileDevelopment\\Crawl\\Crawl\\Views\\Characters\\Ch" +
+        "aracterDeletePage.xaml")]
     public partial class CharacterDeletePage : global::Xamarin.Forms.ContentPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.StackLayout DetailsRoot;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(CharacterDeletePage));
+            DetailsRoot = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "DetailsRoot");
         }
     }
 }

@@ -65,6 +65,9 @@ namespace Crawl.Services
                 Dagger_IMG, 2, 5, 10, ItemLocationEnum.Head, AttributeEnum.Speed));
             // Implement Characters
 
+            _characterDataset.Add(new Character());
+            _characterDataset.Add(new Character());
+
             // Implement Monsters
 
             // Implement Scores

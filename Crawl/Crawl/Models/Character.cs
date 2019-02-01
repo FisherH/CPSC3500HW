@@ -8,20 +8,36 @@ namespace Crawl.Models
     // The Character is the higher level concept.  This is the Character with all attirbutes defined.
     public class Character : BaseCharacter
     {
+        //Character specific properties
+        private int Age;
+
         // Add in the actual attribute class
         public AttributeBase Attribute { get; set; }
 
-        // Make sure Attribute is instantiated in the constructor
+        // Create a character with a randomized age
         public Character()
         {
             Attribute = new AttributeBase();
             Alive = true;
+
+            Random r = new Random();
+            Age = r.Next(25, 75);
         }
+
+        // Make sure Attribute is instantiated in the constructor
+        public Character(int Age)
+        {
+            Attribute = new AttributeBase();
+            Alive = true;
+            this.Age = Age;
+        }
+
 
         // Create a new character, based on a passed in BaseCharacter
         // Used for converting from database format to character
-        public Character(BaseCharacter newData)
+        public Character(BaseCharacter newData, int Age)
         {
+            this.Age = Age;
             // Base information
             Name = newData.Name;
             Description = newData.Description;
@@ -197,6 +213,8 @@ namespace Crawl.Models
             
             return myReturn;
         }
+
+
 
         #endregion GetAttributes
 

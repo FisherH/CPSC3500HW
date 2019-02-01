@@ -35,6 +35,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Controllers\CharacterController.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Controllers\ItemsController.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GameEngine\BattleEngine.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GameEngine\HelperEngine.cs" />

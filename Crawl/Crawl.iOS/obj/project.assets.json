@@ -1427,11 +1427,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fishe\\Documents\\GitHub\\CPSC3500HW\\Crawl\\Crawl.iOS\\Crawl.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\fishe\\Documents\\GitHub\\MobileDevelopment\\Crawl\\Crawl.iOS\\Crawl.iOS.csproj",
       "projectName": "Crawl.iOS",
-      "projectPath": "C:\\Users\\fishe\\Documents\\GitHub\\CPSC3500HW\\Crawl\\Crawl.iOS\\Crawl.iOS.csproj",
+      "projectPath": "C:\\Users\\fishe\\Documents\\GitHub\\MobileDevelopment\\Crawl\\Crawl.iOS\\Crawl.iOS.csproj",
       "packagesPath": "C:\\Users\\fishe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fishe\\Documents\\GitHub\\CPSC3500HW\\Crawl\\Crawl.iOS\\obj\\",
+      "outputPath": "C:\\Users\\fishe\\Documents\\GitHub\\MobileDevelopment\\Crawl\\Crawl.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

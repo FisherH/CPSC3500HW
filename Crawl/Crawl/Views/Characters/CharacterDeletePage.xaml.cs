@@ -7,14 +7,15 @@ using Xamarin.Forms.Xaml;
 
 namespace Crawl.Views
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class CharacterDeletePage : ContentPage
-	{
-	    private CharacterDetailViewModel _viewModel;
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class CharacterDeletePage : ContentPage
+    {
+        // ReSharper disable once NotAccessedField.Local
+        private ItemDetailViewModel _viewModel;
 
-        public Character Data { get; set; }
+        public Item Data { get; set; }
 
-        public CharacterDeletePage (CharacterDetailViewModel viewModel)
+        public CharacterDeletePage(ItemDetailViewModel viewModel)
         {
             // Save off the item
             Data = viewModel.Data;
@@ -26,7 +27,7 @@ namespace Crawl.Views
             BindingContext = _viewModel = viewModel;
         }
 
-	    private async void Delete_Clicked(object sender, EventArgs e)
+        private async void Delete_Clicked(object sender, EventArgs e)
         {
             MessagingCenter.Send(this, "DeleteData", Data);
 
@@ -36,7 +37,7 @@ namespace Crawl.Views
             await Navigation.PopAsync();
         }
 
-	    private async void Cancel_Clicked(object sender, EventArgs e)
+        private async void Cancel_Clicked(object sender, EventArgs e)
         {
             await Navigation.PopAsync();
         }

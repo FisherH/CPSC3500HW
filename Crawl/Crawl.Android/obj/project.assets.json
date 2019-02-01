@@ -1286,11 +1286,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fishe\\Documents\\GitHub\\CPSC3500HW\\Crawl\\Crawl.Android\\Crawl.Android.csproj",
+      "projectUniqueName": "C:\\Users\\fishe\\Documents\\GitHub\\MobileDevelopment\\Crawl\\Crawl.Android\\Crawl.Android.csproj",
       "projectName": "Crawl.Android",
-      "projectPath": "C:\\Users\\fishe\\Documents\\GitHub\\CPSC3500HW\\Crawl\\Crawl.Android\\Crawl.Android.csproj",
+      "projectPath": "C:\\Users\\fishe\\Documents\\GitHub\\MobileDevelopment\\Crawl\\Crawl.Android\\Crawl.Android.csproj",
       "packagesPath": "C:\\Users\\fishe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fishe\\Documents\\GitHub\\CPSC3500HW\\Crawl\\Crawl.Android\\obj\\",
+      "outputPath": "C:\\Users\\fishe\\Documents\\GitHub\\MobileDevelopment\\Crawl\\Crawl.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
