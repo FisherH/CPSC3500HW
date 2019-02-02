@@ -8,11 +8,20 @@ namespace Crawl.Models
     // The Character is the higher level concept.  This is the Character with all attirbutes defined.
     public class Character : BaseCharacter
     {
-        //Character specific properties
-        private int Age;
 
         // Add in the actual attribute class
         public AttributeBase Attribute { get; set; }
+
+        public Character(string name, int age, int Attack, int Defense, int Speed)
+        {
+            Name = name;
+            Attribute = new AttributeBase();
+            Alive = true;
+            Attribute.Attack = Attack;
+            Attribute.Defense = Defense;
+            Attribute.Speed = Speed;
+            Age = age;
+        }
 
         // Create a character with a randomized age
         public Character()

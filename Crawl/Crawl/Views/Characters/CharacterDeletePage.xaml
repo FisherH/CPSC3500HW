@@ -1,15 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Crawl.Views.CharacterDeletePage"
-            Title="{Binding Title}">
-
-
-	<ContentPage.ToolbarItems>
-		<ToolbarItem Text="Delete" Clicked="Delete_Clicked" />
-		<ToolbarItem Text="Cancel" Clicked="Cancel_Clicked" />
-	</ContentPage.ToolbarItems>
-
+             x:Class="Crawl.Views.CharacterDeletePage">
 
 	<ScrollView>
 		<StackLayout 
@@ -18,13 +10,7 @@
             Spacing="20"
             Padding="15">
 
-			<Label Text="Items Delete Page" FontSize="Medium" />
-
-			<Image Source="{Binding Data.ImageURI}"
-                WidthRequest="150"
-                HeightRequest="150" 
-                HorizontalOptions="Center"
-                VerticalOptions="Center"/>
+			<Label Text="Delete Character?" FontSize="Medium" />
 
 			<StackLayout
                 Orientation="Horizontal"
@@ -40,68 +26,19 @@
 			<StackLayout
                 Orientation="Horizontal"
                 HorizontalOptions="Start">
-				<Label Text="Description : " 
+				<Label Text="Class : " 
                    FontSize="Medium" 
                    HorizontalOptions="Start"/>
-				<Label Text="{Binding Data.Description}" 
+				<Label Text="{Binding Data.Age}" 
                     FontSize="Medium" 
                     HorizontalOptions="Center"/>
 			</StackLayout>
-
-			<StackLayout
-                Orientation="Horizontal"
-                HorizontalOptions="Start">
-				<Label Text="Range : " 
-                   FontSize="Medium" 
-                   HorizontalOptions="Start"/>
-				<Label Text="{Binding Data.Range}" 
-                    FontSize="Medium" 
-                    HorizontalOptions="Center"/>
-			</StackLayout>
-
-			<StackLayout
-                Orientation="Horizontal"
-                HorizontalOptions="Start">
-				<Label Text="Damage : " 
-                   FontSize="Medium" 
-                   HorizontalOptions="Start"/>
-				<Label Text="{Binding Data.Damage}" 
-                    FontSize="Medium" 
-                    HorizontalOptions="Center"/>
-			</StackLayout>
-
-			<StackLayout
-                Orientation="Horizontal"
-                HorizontalOptions="Start">
-				<Label Text="Value : " 
-                   FontSize="Medium" 
-                   HorizontalOptions="Start"/>
-				<Label Text="{Binding Data.Value}" 
-                    FontSize="Medium" 
-                    HorizontalOptions="Center"/>
-			</StackLayout>
-
-			<StackLayout
-                Orientation="Horizontal"
-                HorizontalOptions="Start">
-				<Label Text="Location : " 
-                   FontSize="Medium" 
-                   HorizontalOptions="Start"/>
-				<Label Text="{Binding Data.Location}" 
-                    FontSize="Medium" 
-                    HorizontalOptions="Center"/>
-			</StackLayout>
-
-			<StackLayout 
-                Orientation="Horizontal" 
-                HorizontalOptions="Start">
-				<Label Text="Attribute : " 
-                   FontSize="Medium" 
-                   HorizontalOptions="Start"/>
-				<Label Text="{Binding Data.Attribute}" 
-                   FontSize="Medium" 
-                   HorizontalOptions="Center"/>
+			<StackLayout Grid.Row="2" Grid.Column="1">
+				<Button Text="Yes, Delete"
+                    HorizontalOptions="Center"
+                    Clicked="Delete_Clicked"/>
 			</StackLayout>
 		</StackLayout>
+
 	</ScrollView>
 </ContentPage>

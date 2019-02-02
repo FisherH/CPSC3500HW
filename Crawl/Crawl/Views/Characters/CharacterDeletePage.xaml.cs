@@ -11,11 +11,11 @@ namespace Crawl.Views
     public partial class CharacterDeletePage : ContentPage
     {
         // ReSharper disable once NotAccessedField.Local
-        private ItemDetailViewModel _viewModel;
+        private CharacterDetailViewModel _viewModel;
 
-        public Item Data { get; set; }
+        public Character Data { get; set; }
 
-        public CharacterDeletePage(ItemDetailViewModel viewModel)
+        public CharacterDeletePage(CharacterDetailViewModel viewModel)
         {
             // Save off the item
             Data = viewModel.Data;

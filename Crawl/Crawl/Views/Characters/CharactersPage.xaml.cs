@@ -28,10 +28,10 @@ namespace Crawl.Views
             await Navigation.PushAsync(new CharacterDetailPage(new CharacterDetailViewModel(data)));
 
             // Manually deselect item.
-            ItemsListView.SelectedItem = null;
+            CharactersListView.SelectedItem = null;
         }
 
-        private async void AddItem_Clicked(object sender, EventArgs e)
+        private async void AddCharacter_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new CharacterNewPage());
         }

@@ -14,34 +14,38 @@ namespace Crawl.Views
     public partial class CharacterDetailPage : ContentPage
     {
         // ReSharper disable once PrivateFieldCanBeConvertedToLocalVariable
-        private ItemDetailViewModel _viewModel;
+        private CharacterDetailViewModel _viewModel;
 
-        public CharacterDetailPage(ItemDetailViewModel viewModel)
+        public CharacterDetailPage(CharacterDetailViewModel viewModel)
         {
             InitializeComponent();
 
             BindingContext = _viewModel = viewModel;
         }
 
-        public CharacterDetailPage(CharacterDetailViewModel characterDetailViewModel)
+        public CharacterDetailPage()
         {
             InitializeComponent();
 
-            var data = new Item();
+            var data = new Character
+            {
+                Name = "Character 1",
+                Age = 0
+            };
 
-            _viewModel = new ItemDetailViewModel(data);
+            _viewModel = new CharacterDetailViewModel(data);
             BindingContext = _viewModel;
         }
 
 
         private async void Edit_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new ItemEditPage(_viewModel));
+            await Navigation.PushAsync(new CharacterEditPage(_viewModel));
         }
 
         private async void Delete_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new ItemDeletePage(_viewModel));
+            await Navigation.PushAsync(new CharacterDeletePage(_viewModel));
         }
 
         private async void Cancel_Clicked(object sender, EventArgs e)

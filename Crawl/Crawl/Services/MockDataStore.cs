@@ -65,8 +65,8 @@ namespace Crawl.Services
                 Dagger_IMG, 2, 5, 10, ItemLocationEnum.Head, AttributeEnum.Speed));
             // Implement Characters
 
-            _characterDataset.Add(new Character());
-            _characterDataset.Add(new Character());
+            _characterDataset.Add(new Character("Thomas", 30, 10, 10, 10));
+            _characterDataset.Add(new Character("Fisher", 33, 10, 10, 10));
 
             // Implement Monsters
 
@@ -175,34 +175,57 @@ namespace Crawl.Services
 
         #region Character
         // Character
+        public async Task<bool> InsertUpdateAsync_Character(Character data)
+        {
+            var oldChar = await GetAsync_Character(data.Id);
+            if (oldChar == null)
+            {
+                _characterDataset.Add(data);
+                return true;
+            }
+
+            var UpdateResult = await UpdateAsync_Character(data);
+            if (UpdateResult)
+            {
+                await AddAsync_Character(data);
+                return true;
+            }
+
+            return false;
+        }
+
         public async Task<bool> AddAsync_Character(Character data)
         {
-            // Implement
-            return false;
+            _characterDataset.Add(data);
+            return await Task.FromResult(true);
         }
 
         public async Task<bool> UpdateAsync_Character(Character data)
         {
-            // Implement
-            return false;
+            var myData = _characterDataset.FirstOrDefault(arg => arg.Id == data.Id);
+            if (myData == null)
+                return false;
+
+            myData.Update(data);
+            return await Task.FromResult(true);
         }
 
         public async Task<bool> DeleteAsync_Character(Character data)
         {
-            // Implement
-            return false;
+            var myData = _characterDataset.FirstOrDefault(arg => arg.Id == data.Id);
+            _characterDataset.Remove(myData);
+
+            return await Task.FromResult(true);
         }
 
         public async Task<Character> GetAsync_Character(string id)
         {
-            // Implement
-            return null;
+            return await Task.FromResult(_characterDataset.FirstOrDefault(s => s.Id == id));
         }
 
         public async Task<IEnumerable<Character>> GetAllAsync_Character(bool forceRefresh = false)
         {
-            // Implement
-            return null;
+            return await Task.FromResult(_characterDataset);
         }
 
         #endregion Character
